@@ -1,0 +1,2016 @@
+fileFormatVersion: 2
+guid: a6db440dcf8c8de438bb8916b0a167ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7101869982824729449
+    second: PuyosSpriteSheet_0
+  - first:
+      213: -3562367657784255882
+    second: PuyosSpriteSheet_1
+  - first:
+      213: -7447872472795142646
+    second: PuyosSpriteSheet_2
+  - first:
+      213: -2895025010038490783
+    second: PuyosSpriteSheet_3
+  - first:
+      213: 52224009417218674
+    second: PuyosSpriteSheet_4
+  - first:
+      213: -1111453090023079638
+    second: PuyosSpriteSheet_5
+  - first:
+      213: -4230210238901511543
+    second: PuyosSpriteSheet_6
+  - first:
+      213: -4346830178287890214
+    second: PuyosSpriteSheet_7
+  - first:
+      213: 3835907874795832831
+    second: PuyosSpriteSheet_8
+  - first:
+      213: -5769663331267107941
+    second: PuyosSpriteSheet_9
+  - first:
+      213: 1316331140699913034
+    second: PuyosSpriteSheet_10
+  - first:
+      213: -980163375702231451
+    second: PuyosSpriteSheet_11
+  - first:
+      213: 5431534614426978592
+    second: PuyosSpriteSheet_12
+  - first:
+      213: -9178041847677595381
+    second: PuyosSpriteSheet_13
+  - first:
+      213: 1272726492246049612
+    second: PuyosSpriteSheet_14
+  - first:
+      213: 8152359937096348093
+    second: PuyosSpriteSheet_15
+  - first:
+      213: 6062803198319711460
+    second: PuyosSpriteSheet_16
+  - first:
+      213: 1525572164969175180
+    second: PuyosSpriteSheet_17
+  - first:
+      213: -5395975774070399182
+    second: PuyosSpriteSheet_18
+  - first:
+      213: -3986208438286182395
+    second: PuyosSpriteSheet_19
+  - first:
+      213: -173360576583491344
+    second: PuyosSpriteSheet_20
+  - first:
+      213: -5220461715803934475
+    second: PuyosSpriteSheet_21
+  - first:
+      213: 414614320512064667
+    second: PuyosSpriteSheet_22
+  - first:
+      213: 1740035796727123804
+    second: PuyosSpriteSheet_23
+  - first:
+      213: 3180769116166144506
+    second: PuyosSpriteSheet_24
+  - first:
+      213: 3259006184341267348
+    second: PuyosSpriteSheet_25
+  - first:
+      213: 3183110124753702060
+    second: PuyosSpriteSheet_26
+  - first:
+      213: -206840573509968115
+    second: PuyosSpriteSheet_27
+  - first:
+      213: -855308477324232015
+    second: PuyosSpriteSheet_28
+  - first:
+      213: -3931255716645656824
+    second: PuyosSpriteSheet_29
+  - first:
+      213: -8099951369138638747
+    second: PuyosSpriteSheet_30
+  - first:
+      213: 1182817895281396597
+    second: PuyosSpriteSheet_31
+  - first:
+      213: -5548301165158671146
+    second: PuyosSpriteSheet_32
+  - first:
+      213: -2895816019683505895
+    second: PuyosSpriteSheet_33
+  - first:
+      213: 2529736709373767335
+    second: PuyosSpriteSheet_34
+  - first:
+      213: 8570647460696028629
+    second: PuyosSpriteSheet_35
+  - first:
+      213: 5900298290982642672
+    second: PuyosSpriteSheet_36
+  - first:
+      213: -4825182650461257245
+    second: PuyosSpriteSheet_37
+  - first:
+      213: -8061256261907267578
+    second: PuyosSpriteSheet_38
+  - first:
+      213: -2981895139746218284
+    second: PuyosSpriteSheet_39
+  - first:
+      213: 6380149204432652647
+    second: PuyosSpriteSheet_40
+  - first:
+      213: -5147254827719771067
+    second: PuyosSpriteSheet_41
+  - first:
+      213: 5763619257110600616
+    second: PuyosSpriteSheet_42
+  - first:
+      213: -2065651015746738639
+    second: PuyosSpriteSheet_43
+  - first:
+      213: 635244690300556912
+    second: PuyosSpriteSheet_44
+  - first:
+      213: 8045993368603089648
+    second: PuyosSpriteSheet_45
+  - first:
+      213: -8009858286896287438
+    second: PuyosSpriteSheet_46
+  - first:
+      213: -309829389989686480
+    second: PuyosSpriteSheet_47
+  - first:
+      213: -5592885269664764951
+    second: PuyosSpriteSheet_48
+  - first:
+      213: -7557973619255343465
+    second: PuyosSpriteSheet_49
+  - first:
+      213: 72739962683663624
+    second: PuyosSpriteSheet_50
+  - first:
+      213: 5733256424043673344
+    second: PuyosSpriteSheet_51
+  - first:
+      213: -7564532544145359814
+    second: PuyosSpriteSheet_52
+  - first:
+      213: -7679237460185580779
+    second: PuyosSpriteSheet_53
+  - first:
+      213: 8315218883363926810
+    second: PuyosSpriteSheet_54
+  - first:
+      213: -8158551538230431111
+    second: PuyosSpriteSheet_55
+  - first:
+      213: -5649688480231122566
+    second: PuyosSpriteSheet_56
+  - first:
+      213: 3651127247846648414
+    second: PuyosSpriteSheet_57
+  - first:
+      213: 6969618833314275627
+    second: PuyosSpriteSheet_58
+  - first:
+      213: -4487716028724932243
+    second: PuyosSpriteSheet_59
+  - first:
+      213: -8356830380916100360
+    second: PuyosSpriteSheet_60
+  - first:
+      213: -4177875433541229709
+    second: PuyosSpriteSheet_61
+  - first:
+      213: 4800080658849508070
+    second: PuyosSpriteSheet_62
+  - first:
+      213: 4822516197497982134
+    second: PuyosSpriteSheet_63
+  - first:
+      213: 1192429835204921862
+    second: PuyosSpriteSheet_64
+  - first:
+      213: -4903341589741436063
+    second: PuyosSpriteSheet_65
+  - first:
+      213: -6459022159529197356
+    second: PuyosSpriteSheet_66
+  - first:
+      213: -8578649187651526229
+    second: PuyosSpriteSheet_67
+  - first:
+      213: 3156282713686011870
+    second: PuyosSpriteSheet_68
+  - first:
+      213: -6952164987316492726
+    second: PuyosSpriteSheet_69
+  - first:
+      213: 7555625369718935590
+    second: PuyosSpriteSheet_70
+  - first:
+      213: -2799231591682186753
+    second: PuyosSpriteSheet_71
+  - first:
+      213: -8929705176181878647
+    second: PuyosSpriteSheet_72
+  - first:
+      213: 2929616164499235178
+    second: PuyosSpriteSheet_73
+  - first:
+      213: 6934557881416613513
+    second: PuyosSpriteSheet_74
+  - first:
+      213: -1641868294766731535
+    second: PuyosSpriteSheet_75
+  - first:
+      213: 2664150822364255586
+    second: PuyosSpriteSheet_76
+  - first:
+      213: -272074030503463326
+    second: PuyosSpriteSheet_77
+  - first:
+      213: 3436539095486944337
+    second: PuyosSpriteSheet_78
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b074f3f19ee8260800000000000000
+      internalID: 7101869982824729449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67add6e4d7def8ec0800000000000000
+      internalID: -3562367657784255882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06a2ae4277d3a890800000000000000
+      internalID: -7447872472795142646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169b8c4871ec2d7d0800000000000000
+      internalID: -2895025010038490783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a5f0ab57989b000800000000000000
+      internalID: 52224009417218674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a210aa8ad435390f0800000000000000
+      internalID: -1111453090023079638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a1e0943364b45c0800000000000000
+      internalID: -4230210238901511543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0d33cbbf4fca3c0800000000000000
+      internalID: -4346830178287890214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5445c73e1eb3530800000000000000
+      internalID: 3835907874795832831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b932a3ae4c90eefa0800000000000000
+      internalID: -5769663331267107941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bf330c23c844210800000000000000
+      internalID: 1316331140699913034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566bb695a92c562f0800000000000000
+      internalID: -980163375702231451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029882e44ffa06b40800000000000000
+      internalID: 5431534614426978592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 391
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01d18f119b01a080800000000000000
+      internalID: -9178041847677595381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c430e826002a9a110800000000000000
+      internalID: 1272726492246049612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f0c37b20032170800000000000000
+      internalID: 8152359937096348093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e4d2f20367632450800000000000000
+      internalID: 6062803198319711460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88163c1dcbeb2510800000000000000
+      internalID: 1525572164969175180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9be16f94ad15b0800000000000000
+      internalID: -5395975774070399182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50899439b842ea8c0800000000000000
+      internalID: -3986208438286182395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f02fae5979189df0800000000000000
+      internalID: -173360576583491344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f0faf98ab13d87b0800000000000000
+      internalID: -5220461715803934475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c59ec178101c500800000000000000
+      internalID: 414614320512064667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 326
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f42688659d52810800000000000000
+      internalID: 1740035796727123804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1cd91a8ac542c20800000000000000
+      internalID: 3180769116166144506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49366729bd05a3d20800000000000000
+      internalID: 3259006184341267348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacc4ea2bcdac2c20800000000000000
+      internalID: 3183110124753702060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0fdcc22897212df0800000000000000
+      internalID: -206840573509968115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba75b3b8755124f0800000000000000
+      internalID: -855308477324232015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807ac1021cf5179c0800000000000000
+      internalID: -3931255716645656824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5607d882521379f80800000000000000
+      internalID: -8099951369138638747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b0932eb963a6010800000000000000
+      internalID: 1182817895281396597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcd4d78c797003b0800000000000000
+      internalID: -5548301165158671146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 261
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91901eb3caeffc7d0800000000000000
+      internalID: -2895816019683505895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae2d71522e6b1320800000000000000
+      internalID: 2529736709373767335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5f3edc47e01f670800000000000000
+      internalID: 8570647460696028629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f36dd6d80212e150800000000000000
+      internalID: 5900298290982642672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e101eeb1f1890db0800000000000000
+      internalID: -4825182650461257245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600cf91e32aa02090800000000000000
+      internalID: -8061256261907267578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de76fd4b2e2e96d0800000000000000
+      internalID: -2981895139746218284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7690330e5e7da8850800000000000000
+      internalID: 6380149204432652647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54c395961074198b0800000000000000
+      internalID: -5147254827719771067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_42
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab9da86d2d7cff40800000000000000
+      internalID: 5763619257110600616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_43
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 196
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136ad7078555553e0800000000000000
+      internalID: -2065651015746738639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_44
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07651de1ea7d0d800800000000000000
+      internalID: 635244690300556912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa5cb8d65c19af60800000000000000
+      internalID: 8045993368603089648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_46
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231f35c735447d090800000000000000
+      internalID: -8009858286896287438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_47
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03350b4bfc343bbf0800000000000000
+      internalID: -309829389989686480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_48
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebed18ca741262b0800000000000000
+      internalID: -5592885269664764951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_49
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7960382890fac1790800000000000000
+      internalID: -7557973619255343465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_50
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8052cb45c9c620100800000000000000
+      internalID: 72739962683663624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_51
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0077951775e909f40800000000000000
+      internalID: 5733256424043673344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_52
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c755ecab1650790800000000000000
+      internalID: -7564532544145359814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_53
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 131
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bf3cf573edd6590800000000000000
+      internalID: -7679237460185580779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_54
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13f68cb487956370800000000000000
+      internalID: 8315218883363926810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_55
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972fe021a9007ce80800000000000000
+      internalID: -8158551538230431111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_56
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a791534b2464891b0800000000000000
+      internalID: -5649688480231122566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_57
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a26ad23e86ba230800000000000000
+      internalID: 3651127247846648414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21e19bf66f09b060800000000000000
+      internalID: 6969618833314275627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_59
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61160f7c0e68b1c0800000000000000
+      internalID: -4487716028724932243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_60
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2bd418b03960c80800000000000000
+      internalID: -8356830380916100360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_61
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373a1f3bd643506c0800000000000000
+      internalID: -4177875433541229709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_62
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eaa2f36def4d9240800000000000000
+      internalID: 4800080658849508070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_63
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc4f6b4ee40de240800000000000000
+      internalID: 4822516197497982134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_64
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a87fa0e9c5c8010800000000000000
+      internalID: 1192429835204921862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_65
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163001b9dc4d3fbb0800000000000000
+      internalID: -4903341589741436063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_66
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0c2e83191fc56a0800000000000000
+      internalID: -6459022159529197356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_67
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba16655f30482f880800000000000000
+      internalID: -8578649187651526229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_68
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfe5f7c76e5dcb20800000000000000
+      internalID: 3156282713686011870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_69
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46a71737c2f48f90800000000000000
+      internalID: -6952164987316492726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_70
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620d60a0e39fad860800000000000000
+      internalID: 7555625369718935590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_71
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff16bb5c2b12729d0800000000000000
+      internalID: -2799231591682186753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98056b03470531480800000000000000
+      internalID: -8929705176181878647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_73
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61283d316618a820800000000000000
+      internalID: 2929616164499235178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_74
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ef83cf6af7c3060800000000000000
+      internalID: 6934557881416613513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_75
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fed3722c79e639e0800000000000000
+      internalID: -1641868294766731535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_76
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2651613ce07f8f420800000000000000
+      internalID: 2664150822364255586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_77
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2667b3b5c16693cf0800000000000000
+      internalID: -272074030503463326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuyosSpriteSheet_78
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154dd3b891a01bf20800000000000000
+      internalID: 3436539095486944337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
