@@ -6,22 +6,16 @@ public class PuyoScript : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     public Sprite puyoSprite;
-    public int puyoColor = 0; //1 = Red, 2 = Blue, 3 = Green, 4 = Yellow
+    public int puyoColor = 0; //0 = Red, 1 = Blue, 2 = Green, 3 = Yellow
+    public bool isFalling = false;
 
     private void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = puyoSprite;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        
+        spriteRenderer.sprite = puyoSprite;
     }
 }
