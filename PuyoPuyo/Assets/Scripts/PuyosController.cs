@@ -7,16 +7,18 @@ public class PuyosController : MonoBehaviour
     private InputMaster inputMaster;
 
     public GameObject[] puyosSpawners; 
-    [SerializeField]
     private GameObject[] currentPuyos = new GameObject[2]; //Current falling puyos
 
     private Transform[,] grid = new Transform[6, 12];
+    private int[,] gridColors = new int[6, 12];
+    private bool[,] checkedGrid = new bool[6, 12];
 
     private bool puyosPairExist;
     private float gridLimitY = 11;
     private float gridLimitX = 5;
     private float fallingRate = 0.6f;
     private float fallTimer = 0.0f;
+    private float fallingBlocksRate = 0.05f;
 
     private int currentRotation = 0;
     private Transform rotatingPuyo;
@@ -42,6 +44,7 @@ public class PuyosController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InitGridColors();
         Invoke("SpawnPuyos", 1f);
     }
 
@@ -59,6 +62,17 @@ public class PuyosController : MonoBehaviour
         inputMaster.GameplayActions.MoveDown.performed += _ => FasterFall();
         inputMaster.GameplayActions.MoveDown.canceled += _ => NormalFall();
         inputMaster.GameplayActions.Rotate.performed += _ => RotatePuyos();
+    }
+
+    void InitGridColors()
+    {
+        for (int i = 0; i < gridColors.GetLength(0); i++)
+        {
+            for (int j = 0; j < gridColors.GetLength(1); j++)
+            {
+                gridColors[i, j] = -1;
+            }
+        }
     }
 
     void SpawnPuyos()
@@ -212,10 +226,23 @@ public class PuyosController : MonoBehaviour
         int x = (int)_puyo.position.x;
         int y = (int)_puyo.position.y;
         grid[x, y] = _puyo;
+        gridColors[x, y] = _puyo.GetComponent<PuyoScript>().color;
 
-        _puyo.GetComponent<PuyoScript>().isFalling = false;
+        PuyoScript puyoData = _puyo.GetComponent<PuyoScript>();
+        puyoData.isFalling = false;
+        puyoData.x = x;
+        puyoData.y = y;
+
         puyoOnGrid = true; //At least one puyo on grid
         FasterFall(); //Faster fall for the remaining puyo
+    }
+
+    void RemovePuyoFromGrid(Transform _puyo)
+    {
+        int x = (int)_puyo.position.x;
+        int y = (int)_puyo.position.y;
+        grid[x, y] = null;
+        gridColors[x, y] = -1;
     }
 
     void CheckIfPuyosFalling()
@@ -230,9 +257,199 @@ public class PuyosController : MonoBehaviour
         }
         if(notFalling == 2)
         {
+            SearchForConnections();
             puyosPairExist = false;
             currentRotation = 0;
-            Invoke("SpawnPuyos", 0.5f);
+        }
+    }
+
+    void SearchForConnections()
+    {
+        Debug.Log("<color=blue>CHECK GRID</color>");
+
+        ResetCheckedGrid();
+        for(int i = 0; i < gridColors.GetLength(0); i++)
+        {
+            for(int j = 0; j < gridColors.GetLength(1); j++)
+            {
+                //Debug.Log("Color in: (" + i + ", " + j + ") = " + gridColors[i, j]);
+                if(gridColors[i, j] > -1 && !checkedGrid[i, j]) //There is a puyo in that cell that hasn't been checked
+                {
+                    InitPuyosSearch(grid[i, j].GetComponent<PuyoScript>(), i, j);
+                }
+            }
+        }
+
+        StartCoroutine(AdjustFloatingPuyos());
+    }
+
+    void ResetCheckedGrid()
+    {
+        for (int i = 0; i < checkedGrid.GetLength(0); i++)
+        {
+            for (int j = 0; j < checkedGrid.GetLength(1); j++)
+            {
+                checkedGrid[i, j] = false;
+            }
+        }
+    }
+
+    void InitPuyosSearch(PuyoScript _initPuyo, int _x, int _y)
+    {
+        List<PuyoScript> totalConnectedPuyos = new List<PuyoScript>();
+        bool connectionsFinished = false;
+        var puyosGroup = GetPuyosGroup(_initPuyo, _x, _y);
+        totalConnectedPuyos.AddRange(puyosGroup);
+
+        while (!connectionsFinished)
+        {
+            var puyosToAdd = new List<PuyoScript>();
+
+            foreach (PuyoScript puyo in totalConnectedPuyos)
+            {
+                var connectedPuyos = GetPuyosGroup(puyo, puyo.x, puyo.y);
+                if (connectedPuyos.Count > 0)
+                {
+                    puyosToAdd.AddRange(connectedPuyos);
+                } 
+            }
+
+            if(puyosToAdd.Count > 0)
+            {
+                totalConnectedPuyos.AddRange(puyosToAdd);
+            }
+            else
+            {
+                connectionsFinished = true;
+            }
+        }
+        //Debug.Log("Connected puyos: " + totalConnectedPuyos.Count);
+
+        if(totalConnectedPuyos.Count > 3)
+        {
+            StartCoroutine(ChainCompleted(totalConnectedPuyos));
+        }
+    }
+
+    List<PuyoScript> GetPuyosGroup(PuyoScript _puyo, int _x, int _y)
+    {
+        List<PuyoScript> connectedPuyos = new List<PuyoScript>();
+        if(!checkedGrid[_x, _y])
+        {
+            connectedPuyos.Add(_puyo);
+            checkedGrid[_x, _y] = true;
+        }
+
+        if(_x < gridLimitX)
+        {
+            CheckNeighbor(connectedPuyos, _puyo.color, _x + 1, _y);
+        }
+        if(_x > 0)
+        {
+            CheckNeighbor(connectedPuyos, _puyo.color, _x - 1, _y);
+        }
+        if(_y < gridLimitY)
+        {
+            CheckNeighbor(connectedPuyos, _puyo.color, _x, _y + 1);
+        }
+        if(_y > 0)
+        {
+            CheckNeighbor(connectedPuyos, _puyo.color, _x, _y - 1);
+        }
+        
+        return connectedPuyos;
+    }
+
+    void CheckNeighbor(List<PuyoScript> _connectedPuyos , int _color, int _x, int _y)
+    {
+        if(!checkedGrid[_x, _y] && gridColors[_x, _y] == _color)
+        {
+            _connectedPuyos.Add(grid[_x, _y].GetComponent<PuyoScript>());
+            checkedGrid[_x, _y] = true;
+        }
+    }
+
+    IEnumerator ChainCompleted(List<PuyoScript> _chain)
+    {
+        yield return new WaitForSeconds(0.5f);
+        foreach(PuyoScript puyo in _chain)
+        {
+            grid[puyo.x, puyo.y] = null;
+            gridColors[puyo.x, puyo.y] = -1;
+            checkedGrid[puyo.x, puyo.y] = false;
+            puyo.gameObject.SetActive(false);
+        }
+    }
+
+    IEnumerator AdjustFloatingPuyos()
+    {
+        yield return new WaitForSeconds(0.5f); //Wait for chain reaction
+        var floatingPuyos = new List<Transform>();
+        var puyosToRemove = new List<Transform>();
+
+        bool puyosFloating = false;
+        bool puyosFalled = false;
+
+        do
+        {
+            for (int i = 0; i < grid.GetLength(0); i++)
+            {
+                for (int j = 1; j < grid.GetLength(1); j++)
+                {
+                    if (grid[i, j] != null && grid[i, j - 1] == null) //There is a void in there
+                    {
+                        puyosFloating = true;
+                        puyosFalled = true;
+                        //Get entire column to drop
+                        for (int z = 1; z < grid.GetLength(1); z++)
+                        {
+                            if (grid[i, z] != null)
+                            {
+                                grid[i, z].GetComponent<PuyoScript>().isFalling = true;
+                                floatingPuyos.Add(grid[i, z]);
+                                RemovePuyoFromGrid(grid[i, z]);
+                            }
+                        }
+                    }
+                }
+            }
+
+            //Debug.Log("Floating puyos: " + floatingPuyos.Count);
+            foreach (Transform puyo in floatingPuyos)
+            {
+                Vector3 newPos = puyo.position;
+                newPos.y -= 1;
+                puyo.transform.position = newPos;
+
+                if (BoundsOrCollision(puyo.transform.position))
+                {
+                    newPos = puyo.position;
+                    newPos.y += 1;
+                    puyo.position = newPos;
+
+                    AddPuyoToGrid(puyo);
+                    puyosToRemove.Add(puyo);
+                }
+            }
+            for(int i = 0; i < puyosToRemove.Count; i++)
+            {
+                floatingPuyos.Remove(puyosToRemove[i]);
+            }
+            //Debug.Log("Floating puyos: " + floatingPuyos.Count + ", Puyos not floating: " + puyosToRemove.Count);
+            if (floatingPuyos.Count == 0)
+            {
+                puyosFloating = false;
+            }
+            yield return new WaitForSeconds(fallingBlocksRate);
+        } while (puyosFloating);
+
+        if(puyosFalled)
+        {
+            SearchForConnections(); //Search if the adjustment caused any more chains
+        }
+        else
+        {
+            Invoke("SpawnPuyos", 0.2f);
         }
     }
 }

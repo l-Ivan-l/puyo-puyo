@@ -49,7 +49,7 @@ public class PuyosPool : MonoBehaviour
             {
                 puyosPool[i].transform.position = _position;
                 puyoColor = Random.Range(0, 4);
-                puyosPool[i].GetComponent<PuyoScript>().puyoColor = puyoColor;
+                puyosPool[i].GetComponent<PuyoScript>().color = puyoColor;
                 puyosPool[i].GetComponent<PuyoScript>().puyoSprite = puyoSprites[puyoColor];
                 puyosPool[i].GetComponent<PuyoScript>().isFalling = true;
                 puyosPool[i].SetActive(true);
