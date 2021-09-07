@@ -6,6 +6,8 @@ public class PuyosController : MonoBehaviour
 {
     private InputMaster inputMaster;
 
+    public GameController gameController;
+
     public GameObject[] puyosSpawners; 
     private GameObject[] currentPuyos = new GameObject[2]; //Current falling puyos
 
@@ -25,6 +27,8 @@ public class PuyosController : MonoBehaviour
     private Transform pivotPuyo;
 
     private bool puyoOnGrid = false;
+
+    private int comboCount = 0;
 
     private void Awake()
     {
@@ -86,6 +90,7 @@ public class PuyosController : MonoBehaviour
         pivotPuyo = currentPuyos[1].transform;
         puyosPairExist = true;
         puyoOnGrid = false;
+        comboCount = 0;
     }
 
     void CurrentPuyosMovement(int _direction)
@@ -324,8 +329,13 @@ public class PuyosController : MonoBehaviour
             }
         }
         //Debug.Log("Connected puyos: " + totalConnectedPuyos.Count);
+        foreach (PuyoScript puyo in totalConnectedPuyos)
+        {
+            puyo.UpdateSprite();
+        }
+        
 
-        if(totalConnectedPuyos.Count > 3)
+        if (totalConnectedPuyos.Count > 3)
         {
             StartCoroutine(ChainCompleted(totalConnectedPuyos));
         }
@@ -342,42 +352,56 @@ public class PuyosController : MonoBehaviour
 
         if(_x < gridLimitX)
         {
-            CheckNeighbor(connectedPuyos, _puyo.color, _x + 1, _y);
+            _puyo.rightConnected = CheckNeighbor(connectedPuyos, _puyo.color, _x + 1, _y);
         }
         if(_x > 0)
         {
-            CheckNeighbor(connectedPuyos, _puyo.color, _x - 1, _y);
+            _puyo.leftConnected = CheckNeighbor(connectedPuyos, _puyo.color, _x - 1, _y);
         }
         if(_y < gridLimitY)
         {
-            CheckNeighbor(connectedPuyos, _puyo.color, _x, _y + 1);
+            _puyo.upperConnected = CheckNeighbor(connectedPuyos, _puyo.color, _x, _y + 1);
         }
         if(_y > 0)
         {
-            CheckNeighbor(connectedPuyos, _puyo.color, _x, _y - 1);
+            _puyo.bottomConnected = CheckNeighbor(connectedPuyos, _puyo.color, _x, _y - 1);
         }
         
         return connectedPuyos;
     }
 
-    void CheckNeighbor(List<PuyoScript> _connectedPuyos , int _color, int _x, int _y)
+    bool CheckNeighbor(List<PuyoScript> _connectedPuyos , int _color, int _x, int _y)
     {
-        if(!checkedGrid[_x, _y] && gridColors[_x, _y] == _color)
+        if(!checkedGrid[_x, _y] && gridColors[_x, _y] == _color) //For actual grid logic
         {
             _connectedPuyos.Add(grid[_x, _y].GetComponent<PuyoScript>());
             checkedGrid[_x, _y] = true;
         }
+
+        if(gridColors[_x, _y] == _color) //For UpdateSprite functionality
+        {
+            return true;
+        }
+        return false;
     }
 
     IEnumerator ChainCompleted(List<PuyoScript> _chain)
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
         foreach(PuyoScript puyo in _chain)
         {
             grid[puyo.x, puyo.y] = null;
             gridColors[puyo.x, puyo.y] = -1;
             checkedGrid[puyo.x, puyo.y] = false;
-            puyo.gameObject.SetActive(false);
+
+            StartCoroutine(puyo.Pop());
+        }
+        comboCount++;
+        Debug.Log("Combo count: " + comboCount);
+        gameController.AddScore(_chain.Count);
+        if(comboCount > 1)
+        {
+            gameController.ShowCurrentCombo(comboCount);
         }
     }
 
@@ -449,7 +473,27 @@ public class PuyosController : MonoBehaviour
         }
         else
         {
-            Invoke("SpawnPuyos", 0.2f);
+            if (comboCount > 1)
+            {
+                StartCoroutine(gameController.AddChainComboScore(comboCount));
+            }
+            if(!CheckForGameOver())
+            {
+                Invoke("SpawnPuyos", 0.2f);
+            }
         }
+    }
+
+    bool CheckForGameOver()
+    {
+        for (int i = 0; i < checkedGrid.GetLength(0); i++)
+        {
+            if(grid[i, 11] != null) //There is a puyo on top of the board
+            {
+                gameController.GameOver();
+                return true;
+            }
+        }
+        return false;
     }
 }
