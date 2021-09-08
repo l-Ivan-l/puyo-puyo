@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 30e2ee910ccda5646a6b677717116d68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8728802840248514378
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_0
+  - first:
+      213: 2993579054070857414
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_1
+  - first:
+      213: -1898642746147794247
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_2
+  - first:
+      213: -4457160799928463957
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_3
+  - first:
+      213: 6287172294938653744
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_4
+  - first:
+      213: -7639019962956584012
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_5
+  - first:
+      213: -7531251522085562029
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_6
+  - first:
+      213: 3294191708238488385
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_7
+  - first:
+      213: 4866060046136129346
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_8
+  - first:
+      213: 2674213460700087225
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_9
+  - first:
+      213: -8967386884795842844
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_10
+  - first:
+      213: 1124810801428327110
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_11
+  - first:
+      213: 2312166465014113046
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_12
+  - first:
+      213: 5813617049644267988
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_13
+  - first:
+      213: -3261282381711263663
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_14
+  - first:
+      213: 2836119091019653271
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_15
+  - first:
+      213: -5902476389336300199
+    second: PC Computer - Puyo Puyo Tetris - Main Menu_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 883
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47fe6f9fefe22970800000000000000
+      internalID: 8728802840248514378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_1
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 664
+        width: 569
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce71fcf9445b8920800000000000000
+      internalID: 2993579054070857414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_2
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 812
+        width: 369
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b21d785b7aa6a5e0800000000000000
+      internalID: -1898642746147794247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_3
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 758
+        width: 686
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badc7751edbf422c0800000000000000
+      internalID: -4457160799928463957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_4
+      rect:
+        serializedVersion: 2
+        x: 2955
+        y: 644
+        width: 698
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034fe7134e5804750800000000000000
+      internalID: 6287172294938653744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_5
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 611
+        width: 443
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbead321dfbcf590800000000000000
+      internalID: -7639019962956584012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 683
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35958f794ae9b7790800000000000000
+      internalID: -7531251522085562029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_7
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 614
+        width: 300
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 143a79fb7e157bd20800000000000000
+      internalID: 3294191708238488385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_8
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 283
+        width: 582
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473aa994d7b78340800000000000000
+      internalID: 4866060046136129346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_9
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 403
+        width: 424
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3c89259f6bc1520800000000000000
+      internalID: 2674213460700087225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_10
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 343
+        width: 706
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee3f38b3217d8380800000000000000
+      internalID: -8967386884795842844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_11
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 367
+        width: 334
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca68a2e6712c9f00800000000000000
+      internalID: 1124810801428327110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_12
+      rect:
+        serializedVersion: 2
+        x: 3077
+        y: 195
+        width: 602
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613acb84627761020800000000000000
+      internalID: 2312166465014113046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 1014
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d97330a7ed1ea050800000000000000
+      internalID: 5813617049644267988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_14
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 492
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1583cdde3f89db2d0800000000000000
+      internalID: -3261282381711263663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_15
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 7
+        width: 444
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7902ee0794beb5720800000000000000
+      internalID: 2836119091019653271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Puyo Puyo Tetris - Main Menu_16
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 0
+        width: 914
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955ca7e1ff0361ea0800000000000000
+      internalID: -5902476389336300199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

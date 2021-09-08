@@ -1,7 +1,79 @@
 fileFormatVersion: 2
 guid: fd23d8d117b798b47aea36c0a664ab2d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3775572411910651312
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_0
+  - first:
+      213: -3832653286028597370
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_1
+  - first:
+      213: 3460367890640972329
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_2
+  - first:
+      213: -3490734011535711161
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_3
+  - first:
+      213: -3605298421612639553
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_4
+  - first:
+      213: 1572473025336303949
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_5
+  - first:
+      213: 3766636818663364504
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_6
+  - first:
+      213: -6508000851001196630
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_7
+  - first:
+      213: 735988212989797799
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_8
+  - first:
+      213: 6554851660852790821
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_9
+  - first:
+      213: -8625608579261167347
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_10
+  - first:
+      213: -1166557039700183177
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_11
+  - first:
+      213: -941599257337508780
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_12
+  - first:
+      213: -4343971477551532980
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_13
+  - first:
+      213: -9197256930728378380
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_14
+  - first:
+      213: -367390350564982732
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_15
+  - first:
+      213: 211759158754494962
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_16
+  - first:
+      213: 4369429940563410189
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_17
+  - first:
+      213: -4699626829356021775
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_18
+  - first:
+      213: -2649234962035789352
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_19
+  - first:
+      213: -8579093419108909046
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_20
+  - first:
+      213: 5749028937838960497
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_21
+  - first:
+      213: 7776938301491966745
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_22
+  - first:
+      213: 8938372370821906597
+    second: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_23
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +173,511 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 512
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0520d4c25e87a9bc0800000000000000
+      internalID: -3775572411910651312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 718
+        width: 512
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6872803842eafcac0800000000000000
+      internalID: -3832653286028597370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_2
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 640
+        width: 256
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92aa2d14342b50030800000000000000
+      internalID: 3460367890640972329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_3
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 679
+        width: 211
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7442a0549eb6e8fc0800000000000000
+      internalID: -3490734011535711161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 370
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba808eef2867fdc0800000000000000
+      internalID: -3605298421612639553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 451
+        width: 180
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41ed0e92eb82d510800000000000000
+      internalID: 1572473025336303949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 605
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8975656ea38c54430800000000000000
+      internalID: 3766636818663364504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_7
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 562
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf3226f4bfeea5a0800000000000000
+      internalID: -6508000851001196630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_8
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 461
+        width: 151
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5a12a5161c63a00800000000000000
+      internalID: 735988212989797799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 512
+        width: 128
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52682804bd287fa50800000000000000
+      internalID: 6554851660852790821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_10
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 532
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d09839592beab4880800000000000000
+      internalID: -8625608579261167347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 447
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77770769d8e8fcfe0800000000000000
+      internalID: -1166557039700183177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_12
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1
+        width: 128
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c40a9d674cee2f0800000000000000
+      internalID: -941599257337508780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_13
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 393
+        width: 128
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44bc1ed4fc17b3c0800000000000000
+      internalID: -4343971477551532980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 398
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff7fe7fc87cc5080800000000000000
+      internalID: -9197256930728378380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_15
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 397
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4300ba43c64c6eaf0800000000000000
+      internalID: -367390350564982732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 397
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f94f7b35d150f200800000000000000
+      internalID: 211759158754494962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 234
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0dfc36716553ac30800000000000000
+      internalID: 4369429940563410189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_18
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 263
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7c6536c4297ceb0800000000000000
+      internalID: -4699626829356021775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 331
+        width: 150
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1bf4996d60c3bd0800000000000000
+      internalID: -2649234962035789352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_20
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 331
+        width: 148
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a004f134dffe0f880800000000000000
+      internalID: -8579093419108909046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_21
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 265
+        width: 150
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f155bfb57a8cf40800000000000000
+      internalID: 5749028937838960497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_22
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 266
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913fe846e2c3deb60800000000000000
+      internalID: 7776938301491966745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wii - Puyo Puyo 20th Anniversary JPN - Title Screen_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 169
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a08101505a7b0c70800000000000000
+      internalID: 8938372370821906597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

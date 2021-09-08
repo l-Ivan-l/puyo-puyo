@@ -49,6 +49,14 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Pause"",
+                    ""type"": ""Button"",
+                    ""id"": ""794615fe-f71e-449d-b0f1-bac324f0dd2b"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -59,6 +67,28 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
+                    ""action"": ""MoveLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""1383a17a-c6d1-4770-ab59-6efcd242fdee"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""MoveLeft"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""d308f00e-7be6-4539-9a80-70e427afe18a"",
+                    ""path"": ""<Gamepad>/dpad/left"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
                     ""action"": ""MoveLeft"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -76,11 +106,55 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
+                    ""id"": ""d9ec1a23-dbd3-4910-b300-143c7b76454f"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""MoveRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""218210ac-03b1-4002-b8c7-d09eccba63de"",
+                    ""path"": ""<Gamepad>/dpad/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""MoveRight"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
                     ""id"": ""4f06e54a-8eed-4474-b89f-0918ceb4c2d6"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
+                    ""action"": ""MoveDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""da7391e3-52ce-4366-82f4-8abaae928e4f"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""MoveDown"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a3e992d0-3ebf-4370-80b1-df2258ed9d07"",
+                    ""path"": ""<Gamepad>/dpad/down"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
                     ""action"": ""MoveDown"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -93,6 +167,28 @@ public class @InputMaster : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
                     ""action"": ""Rotate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""54f18b3b-b9ed-4214-b0dd-030b4242f1ca"",
+                    ""path"": ""<Gamepad>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Rotate"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""2dda8fb7-2283-4973-9f7d-24d897f47cdf"",
+                    ""path"": ""<Gamepad>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Pause"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -130,6 +226,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         m_GameplayActions_MoveRight = m_GameplayActions.FindAction("MoveRight", throwIfNotFound: true);
         m_GameplayActions_MoveDown = m_GameplayActions.FindAction("MoveDown", throwIfNotFound: true);
         m_GameplayActions_Rotate = m_GameplayActions.FindAction("Rotate", throwIfNotFound: true);
+        m_GameplayActions_Pause = m_GameplayActions.FindAction("Pause", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -183,6 +280,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
     private readonly InputAction m_GameplayActions_MoveRight;
     private readonly InputAction m_GameplayActions_MoveDown;
     private readonly InputAction m_GameplayActions_Rotate;
+    private readonly InputAction m_GameplayActions_Pause;
     public struct GameplayActionsActions
     {
         private @InputMaster m_Wrapper;
@@ -191,6 +289,7 @@ public class @InputMaster : IInputActionCollection, IDisposable
         public InputAction @MoveRight => m_Wrapper.m_GameplayActions_MoveRight;
         public InputAction @MoveDown => m_Wrapper.m_GameplayActions_MoveDown;
         public InputAction @Rotate => m_Wrapper.m_GameplayActions_Rotate;
+        public InputAction @Pause => m_Wrapper.m_GameplayActions_Pause;
         public InputActionMap Get() { return m_Wrapper.m_GameplayActions; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -212,6 +311,9 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Rotate.started -= m_Wrapper.m_GameplayActionsActionsCallbackInterface.OnRotate;
                 @Rotate.performed -= m_Wrapper.m_GameplayActionsActionsCallbackInterface.OnRotate;
                 @Rotate.canceled -= m_Wrapper.m_GameplayActionsActionsCallbackInterface.OnRotate;
+                @Pause.started -= m_Wrapper.m_GameplayActionsActionsCallbackInterface.OnPause;
+                @Pause.performed -= m_Wrapper.m_GameplayActionsActionsCallbackInterface.OnPause;
+                @Pause.canceled -= m_Wrapper.m_GameplayActionsActionsCallbackInterface.OnPause;
             }
             m_Wrapper.m_GameplayActionsActionsCallbackInterface = instance;
             if (instance != null)
@@ -228,6 +330,9 @@ public class @InputMaster : IInputActionCollection, IDisposable
                 @Rotate.started += instance.OnRotate;
                 @Rotate.performed += instance.OnRotate;
                 @Rotate.canceled += instance.OnRotate;
+                @Pause.started += instance.OnPause;
+                @Pause.performed += instance.OnPause;
+                @Pause.canceled += instance.OnPause;
             }
         }
     }
@@ -256,5 +361,6 @@ public class @InputMaster : IInputActionCollection, IDisposable
         void OnMoveRight(InputAction.CallbackContext context);
         void OnMoveDown(InputAction.CallbackContext context);
         void OnRotate(InputAction.CallbackContext context);
+        void OnPause(InputAction.CallbackContext context);
     }
 }

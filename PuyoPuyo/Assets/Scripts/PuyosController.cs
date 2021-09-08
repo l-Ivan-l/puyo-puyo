@@ -66,6 +66,7 @@ public class PuyosController : MonoBehaviour
         inputMaster.GameplayActions.MoveDown.performed += _ => FasterFall();
         inputMaster.GameplayActions.MoveDown.canceled += _ => NormalFall();
         inputMaster.GameplayActions.Rotate.performed += _ => RotatePuyos();
+        inputMaster.GameplayActions.Pause.performed += _ => gameController.Pause();
     }
 
     void InitGridColors()
@@ -91,11 +92,12 @@ public class PuyosController : MonoBehaviour
         puyosPairExist = true;
         puyoOnGrid = false;
         comboCount = 0;
+        SoundManager.instance.PlayPlacedSound(0.75f);
     }
 
     void CurrentPuyosMovement(int _direction)
     {
-        if(puyosPairExist && !puyoOnGrid)
+        if(puyosPairExist && !puyoOnGrid && !gameController.paused)
         {
             foreach (GameObject puyo in currentPuyos)
             {
@@ -112,12 +114,13 @@ public class PuyosController : MonoBehaviour
                     puyo.transform.position = newPos;
                 }
             }
+            SoundManager.instance.PlayMoveSound(0.65f);
         }
     }
     
     void RotatePuyos()
     {
-        if (puyosPairExist && !puyoOnGrid)
+        if (puyosPairExist && !puyoOnGrid && !gameController.paused)
         {
             SwapPuyos();
             currentRotation++;
@@ -152,6 +155,7 @@ public class PuyosController : MonoBehaviour
             {
                 SwapPuyos();
             }
+            SoundManager.instance.PlayMoveSound(0.65f);
         }
     }
 
@@ -167,7 +171,7 @@ public class PuyosController : MonoBehaviour
 
     void PuyosFalling()
     {
-        if(puyosPairExist)
+        if(puyosPairExist && !gameController.paused)
         {
             fallTimer += Time.deltaTime;
 
@@ -188,7 +192,7 @@ public class PuyosController : MonoBehaviour
                         AddPuyoToGrid(puyo.transform);
                     }
                 }
-                
+                SoundManager.instance.PlayMoveSound(0.5f);
                 CheckIfPuyosFalling(); //Check if both puyos stopped falling
                 fallTimer = 0.0f;
             }
@@ -237,6 +241,7 @@ public class PuyosController : MonoBehaviour
         puyoData.isFalling = false;
         puyoData.x = x;
         puyoData.y = y;
+        puyoData.Placed();
 
         puyoOnGrid = true; //At least one puyo on grid
         FasterFall(); //Faster fall for the remaining puyo
@@ -270,7 +275,7 @@ public class PuyosController : MonoBehaviour
 
     void SearchForConnections()
     {
-        Debug.Log("<color=blue>CHECK GRID</color>");
+        //Debug.Log("<color=blue>CHECK GRID</color>");
 
         ResetCheckedGrid();
         for(int i = 0; i < gridColors.GetLength(0); i++)
@@ -397,12 +402,13 @@ public class PuyosController : MonoBehaviour
             StartCoroutine(puyo.Pop());
         }
         comboCount++;
-        Debug.Log("Combo count: " + comboCount);
+        //Debug.Log("Combo count: " + comboCount);
         gameController.AddScore(_chain.Count);
         if(comboCount > 1)
         {
             gameController.ShowCurrentCombo(comboCount);
         }
+        SoundManager.instance.PlayChainSound(1f);
     }
 
     IEnumerator AdjustFloatingPuyos()
@@ -486,14 +492,21 @@ public class PuyosController : MonoBehaviour
 
     bool CheckForGameOver()
     {
+        bool puyosOnTop = false;
         for (int i = 0; i < checkedGrid.GetLength(0); i++)
         {
             if(grid[i, 11] != null) //There is a puyo on top of the board
             {
-                gameController.GameOver();
-                return true;
+                puyosOnTop = true;
+                grid[i, 11].GetComponent<PuyoScript>().OnTop();
             }
         }
-        return false;
+
+        if(puyosOnTop)
+        {
+            StartCoroutine(gameController.GameOver());
+        }
+
+        return puyosOnTop;
     }
 }

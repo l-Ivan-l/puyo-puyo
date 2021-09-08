@@ -197,3 +197,5 @@ MonoBehaviour:
   - {fileID: -7564532544145359814, guid: a6db440dcf8c8de438bb8916b0a167ae, type: 3}
   - {fileID: -7679237460185580779, guid: a6db440dcf8c8de438bb8916b0a167ae, type: 3}
   popClip: {fileID: 7400000, guid: 7cdd25fe28a5eb046b87adf1631b16e9, type: 2}
+  placedClip: {fileID: 7400000, guid: 954afc9be3ca6154094b7154d1d69ed8, type: 2}
+  crossSprite: {fileID: -8887575124863977681, guid: a6db440dcf8c8de438bb8916b0a167ae, type: 3}

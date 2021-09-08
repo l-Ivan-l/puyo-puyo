@@ -30,6 +30,9 @@ public class PuyoScript : MonoBehaviour
     private bool popped = false;
     private Animator puyoAnim;
     public AnimationClip popClip;
+    public AnimationClip placedClip;
+
+    public Sprite crossSprite;
 
     private void Awake()
     {
@@ -102,12 +105,25 @@ public class PuyoScript : MonoBehaviour
         }
     }
 
+    public void Placed()
+    {
+        SoundManager.instance.PlayPlacedSound(1f);
+        puyoAnim.Play(placedClip.name);
+    }
+
     public IEnumerator Pop()
     {
         popped = true;
         UpdateSprite();
         puyoAnim.Play(popClip.name);
         yield return new WaitForSeconds(0.2f);
+        VFXPool.instance.SpawnPopVFX(color, transform.position);
         gameObject.SetActive(false);
+    }
+
+    public void OnTop()
+    {
+        puyoAnim.Play(placedClip.name);
+        spriteRenderer.sprite = crossSprite;
     }
 }
